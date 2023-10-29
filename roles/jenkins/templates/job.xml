@@ -28,7 +28,7 @@
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git">
                     <id>{{unique_key}}</id>
-                    <remote>https://github.com/raghudevopsb70/{{item.name}}</remote>
+                    <remote>https://github.com/tusharghodake/{{item.name}}</remote>
                     <credentialsId></credentialsId>
                     <traits>
                         <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
